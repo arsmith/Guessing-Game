@@ -11,3 +11,17 @@ if guess == correct_answer:
   print("Correct!")
 else:
   print(f"The correct answer was {correct_answer}")
+
+PsuedoCode:
+
+SET mystNumb TO 3
+SEND 'Enter you guess' TO DISPLAY
+RECEIVE guess FROM KEYBOARD
+
+if guess > 10:
+  SEND 'You guessed too high'
+elif guess = mystNumb
+  SEND 'You guessed correctly'
+else:
+  SEND 'Wrong, correct answer was ' + mystNumb
+  
